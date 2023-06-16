@@ -1,0 +1,532 @@
+{
+  "pages": {
+    "DashBoard": {
+      "names": {
+        "productsCount": "Nombres de produits",
+        "servicesCount": "Nombres de services",
+        "allProjectsCount": "Tous les projets comptent",
+        "pendingProjectsCount": "Nombre de projets en attente",
+        "doneProjectsCount": "Nombre de projets terminés",
+        "dailyPayments": "Paiements quotidiens",
+        "dailyExpenses": "Frais journaliers",
+        "monthlyPayments": "Mensualités",
+        "monthlyExpenses": "Dépenses mensuelles",
+        "yearlyPayments": "Paiements annuels",
+        "yearlyExpenses": "Dépenses annuelles",
+        "dailyProfits": "Bénéfices quotidiens",
+        "monthlyProfits": "Bénéfices mensuels",
+        "yearlyProfits": "Bénéfices annuels"
+      },
+      "number": {
+        "productsCount": "Nombres de produits",
+        "servicesCount": "Nombres de services",
+        "allProjectsCount": "Tous les projets comptent",
+        "pendingProjectsCount": "Nombre de projets en attente",
+        "doneProjectsCount": "Nombre de projets terminés",
+        "dailyPayments": "Paiements quotidiens",
+        "dailyExpenses": "Frais journaliers",
+        "monthlyPayments": "Mensualités",
+        "monthlyExpenses": "Dépenses mensuelles",
+        "yearlyPayments": "Paiements annuels",
+        "yearlyExpenses": "Dépenses annuelles",
+        "dailyProfits": "Bénéfices quotidiens",
+        "monthlyProfits": "Bénéfices mensuels",
+        "yearlyProfits": "Bénéfices annuels"
+      }
+    },
+    "BrandBox": {
+      "search": "chercher",
+      "Add_a_new": "Ajouter un nouveau",
+      "table": {
+        "id": "Identifiant",
+        "Img": "Image",
+        "Name": "Nom",
+        "actions": "actions"
+      }
+    },
+    "BrandModal": {
+      "New_Brand_Name": "Nouveau nom de marque",
+      "Name": "Nom",
+      "Images": "Images",
+      "Submit": "Soumettre",
+      "placeholder": "texte"
+    },
+    "UnitsBox": {
+      "search": "chercher",
+      "Add_a_new": "Ajouter un nouveau",
+      "table": {
+        "id": "Identifiant",
+        "Name": "Nom",
+        "actions": "actions"
+      }
+    },
+    "UnitsModal": {
+      "New_Unit_Name": "Nouveau nom d’unité",
+      "Name": "Nom",
+      "Submit": "Soumettre",
+      "placeholder": "texte"
+    },
+    "AttributeBox": {
+      "search": "chercher",
+      "Add_a_new": "Ajouter un nouveau",
+      "table": {
+        "id": "Identifiant",
+        "Name": "Nom",
+        "actions": "actions"
+      }
+    },
+    "AttributesModal": {
+      "New_Unit_Name": "Nouveau nom d’unité",
+      "Name": "Nom",
+      "Submit": "Soumettre",
+      "placeholder": "texte"
+    },
+    "AdsBox": {
+      "search": "chercher",
+      "Add_a_new": "Ajouter un nouveau",
+      "table": {
+        "id": "Identifiant",
+        "Title": "Titre",
+        "discount": "Réduction",
+        "Img": "Image",
+        "Description": "Description",
+        "actions": "actions"
+      }
+    },
+    "adsAdd": {
+      "discount": "Réduction",
+      "Title": "Titre",
+      "Description": "Description",
+      "Image": "image",
+      "Submit": "Soumettre"
+    },
+    "UsersBox": {
+      "search": "chercher",
+      "Add_a_new": "Ajouter un nouveau",
+      "table": {
+        "id": "Identifiant",
+        "Name": "Nom",
+        "Email": "E-mail",
+        "Img": "Image",
+        "Rule": "Règle",
+        "actions": "actions"
+      }
+    },
+    "UserDetailBox": {
+      "Name": "Nom",
+      "Email": "E-mail",
+      "Password": "Mot de passe",
+      "Confirm_Password": "Comfirmer le mot de passe",
+      "Rule": "Règle",
+      "Submit": "Soumettre",
+      "email_or_password_is_wrong": "l’e-mail ou le mot de passe est erroné ",
+      "Required": "Requis ",
+      "must_be_a_valid_email": "Doit être un e-mail valide "
+    },
+    "CategoriesBox": {
+      "add": {
+        "name": "Nom",
+        "Images": "Images",
+        "Submit": "Soumettre"
+      },
+      "table": {
+        "id": "Identifiant",
+        "Name": "Nom",
+        "Img": "Image",
+        "Home_Status": "statut",
+        "actions": "actions"
+      }
+    },
+    "CategoriesEdit": {
+      "add": {
+        "name": "Nom",
+        "Images": "Images",
+        "Submit": "Soumettre"
+      }
+    },
+    "SubCategoriesBox": {
+      "add": {
+        "Main_Category": "Catégorie principale *",
+        "Sub_category_Name": "Nom de la sous-catégorie",
+        "Submit": "Soumettre"
+      },
+      "table": {
+        "id": "Identifiant",
+        "Name": "Nom",
+        "Img": "Image",
+        "actions": "actions"
+      }
+    },
+    "SubCategoriesEdit": {
+      "add": {
+        "Sub_category_Name": "Nom de la sous-catégorie",
+        "Submit": "Soumettre"
+      }
+    },
+    "SubSubCategoriesBox": {
+      "add": {
+        "Main_Category": "Catégorie principale *",
+        "Sub_category_Name": "Nom de la sous-catégorie",
+        "Sub_Sub_category_Name": "Nom de la sous-sous-catégorie",
+        "Submit": "Soumettre"
+      },
+      "table": {
+        "id": "Identifiant",
+        "Name": "Nom",
+        "Img": "Image",
+        "actions": "actions"
+      }
+    },
+    "ProductBox": {
+      "Add_a_new": "Ajouter un nouveau",
+      "table": {
+        "id": "Identifiant",
+        "Name": "Nom",
+        "Quantity": "Quantité",
+        "Price": "Prix",
+        "status": "statut",
+        "actions": "actions"
+      }
+    },
+    "ProductNew": {
+      "Sub_category_Name": "Nom de la sous-catégorie",
+      "Description": "Description",
+      "Brand": "Marque ",
+      "Attributes": "Attributs  ",
+      "Categories": "Catégories  ",
+      "Sub_Categories": "Sous-Catégories ",
+      "Sub_Sub_category": "Sous-Sous-Catégories  ",
+      "Unit": "Unité",
+      "minimum": "minimum",
+      "Unit_Price": "Prix Unitaire",
+      "Total_Quantity": "Total Quantité ",
+      "ADD_Images": "Ajouter des Images ",
+      "Img": "Image",
+      "Submit": "Soumettre"
+    },
+    "ProductEdit": {
+      "Sub_category_Name": "Nom de la sous-catégorie",
+      "Description": "Description",
+      "Brand": "Marque ",
+      "Attributes": "Attributs  ",
+      "Categories": "Catégories  ",
+      "Sub_Categories": "Sous-Catégories ",
+      "Sub_Sub_category": "Sous-Sous-Catégories  ",
+      "Unit": "Unité",
+      "Unit_Price": "Prix Unitaire",
+      "Total_Quantity": "Total Quantité ",
+      "ADD_Images": "Ajouter des Images ",
+      "Img": "Image",
+      "Submit": "Soumettre"
+    },
+    "ServicesBox": {
+      "Add_a_new": "Ajouter un nouveau",
+      "table": {
+        "id": "Identifiant",
+        "Name": "Nom",
+        "status": "statut",
+        "Price": "Prix",
+        "actions": "actions"
+      }
+    },
+    "ServicesAdd": {
+      "address": "adresse",
+      "Sub_category_Name": "Nom de la sous-catégorie",
+      "Description": "Description",
+      "Categories": "Catégories  ",
+      "Unit": "Unité",
+      "Price": "Prix",
+      "Phone_Number": "Numéro du téléphone ",
+      "ADD_Images": "Ajouter des Images ",
+      "Img": "Image",
+      "Submit": "Soumettre"
+    },
+    "ServicesEdit": {
+      "Sub_category_Name": "Nom de la sous-catégorie",
+      "Description": "Description",
+      "Categories": "Catégories  ",
+      "Unit": "Unité",
+      "Price": "Prix",
+      "Phone_Number": "Numéro du téléphone ",
+      "ADD_Images": "Ajouter des Images ",
+      "Img": "Image",
+      "Submit": "Soumettre"
+    },
+    "ProjectBox": {
+      "Add_a_new": "Ajouter un nouveau",
+      "table": {
+        "id": "Identifiant",
+        "Name": "Nom",
+        "status": "statut",
+        "completed": "complété",
+        "Customer_Name": "Nom du client",
+        "Project_Name": "Nom du projet",
+        "actions": "actions"
+      }
+    },
+    "ProjectAdd": {
+      "Project_Name": "Nom du projet",
+      "Customer_Name": "Nom du client",
+      "Project_Total": "Totale du projet",
+      "Start_Date": "Date du début",
+      "End_Date": "Date de fin",
+      "Product": "Produit",
+      "Quantity_Total": "Quantité Total",
+      "The_Quantity_Must_be_Number": "la quantité doit être un nombre !",
+      "Add": "Ajouter un nouveau",
+      "table": {
+        "id": "Identifiant",
+        "Name": "Nom",
+        "Quantity": "Quantité",
+        "unit_price": "Prix unitaire",
+        "Price": "Prix",
+        "actions": "actions"
+      },
+      "Submit": "Soumettre"
+    },
+    "ProjectView": {
+      "Project_Name": "Nom du projet",
+      "Customer_Name": "Nom du client",
+      "Project_Total": "Totale du projet",
+      "Start_Date": "Date du début",
+      "End_Date": "Date de fin",
+      "profits": "Bénéfices",
+      "materials_total": "Total des matériaux",
+      "table": {
+        "id": "Identifiant",
+        "Name": "Nom",
+        "Project_Name": "Nom du projet",
+        "quantity": "quantité",
+        "Customer_Name": "Nom du client"
+      }
+    },
+    "ProjectPayment": {
+      "Add_a_new": "Ajouter un nouveau",
+      "table": {
+        "id": "Identifiant",
+        "Name": "Nom",
+        "Customer_Name": "Nom du client",
+        "Project_Name": "Nom du projet",
+        "Price": "Prix",
+        "actions": "actions"
+      }
+    },
+    "ProjectPaymentAddView": {
+      "Project_Name": "Nom du projet",
+      "Customer_Name": "Nom du client",
+      "Project_Total": "Totale du projet",
+      "paid_before": "Payé avant",
+      "remaining_money": "L’argent restant",
+      "Start_Date": "Date du début",
+      "End_Date": "Date de fin",
+      "table": {
+        "id": "Identifiant",
+        "Name": "Nom",
+        "Project_Name": "Nom du projet",
+        "Customer_Name": "Nom du client"
+      }
+    },
+    "ProjectPaymentAdd": {
+      "Project": "Projet ",
+      "Price": "Prix",
+      "Submit": "Soumettre"
+    },
+    "ProjectPaymentEdit": {
+      "Project": "Projet ",
+      "Price": "Prix",
+      "Submit": "Soumettre",
+      "table": {
+        "id": "Identifiant",
+        "price": "prix",
+        "user_name": "Nom de l’utilisateur",
+        "description": "description",
+        "print": "Imprimer",
+        "money_receiver_name": "Nom du destinataire de l’argent",
+        "money_payer_name": "Nom du payeur",
+        "created_at": "créé à",
+        "actions": "actions"
+      }
+    },
+    "GeneralExpenses": {
+      "Add_a_new": "Ajouter un nouveau",
+      "table": {
+        "id": "Identifiant",
+        "Price": "Prix",
+        "Description": "Description",
+        "Description_Modal": "الوصف",
+        "actions": "actions"
+      }
+    },
+    "GeneralExpensesAdd": {
+      "Price": "Prix",
+      "Description": "Description",
+      "Submit": "Soumettre"
+    },
+    "GeneralExpensesEdit": {
+      "Price": "Prix",
+      "Description": "Description",
+      "Submit": "Soumettre"
+    },
+    "ComponyExpenses": {
+      "Add_a_new": "Ajouter un nouveau",
+      "table": {
+        "id": "Identifiant",
+        "Customer_Name": "Nom du client",
+        "Project_Name": "Nom du projet",
+        "actions": "actions"
+      }
+    },
+    "ComponyExpensesAdd": {
+      "Project": "Projet ",
+      "price": "prix",
+      "description": "description",
+      "Product": "Produit",
+      "Quantity_Total": "Quantité Total",
+      "The_Quantity_Must_be_Number": "la quantité doit être un nombre !",
+      "Add": "Ajouter un nouveau",
+      "table": {
+        "id": "Identifiant",
+        "Name": "Nom",
+        "Quantity": "Quantité",
+        "total_Price": "Prix total",
+        "Price": "Prix",
+        "actions": "actions"
+      },
+      "Submit": "Soumettre"
+    },
+    "ComponyExpensesView": {
+      "Project_Name": "Nom du projet",
+      "Customer_Name": "Nom du client",
+      "Project_Total": "Totale du projet",
+      "Start_Date": "Date du début",
+      "End_Date": "Date de fin",
+      "table": {
+        "id": "Identifiant",
+        "Date": "Date",
+        "price": "prix",
+        "description": "description",
+        "print": "Imprimer",
+        "printAll": "Imprimer tout",
+        "Products": "Produits ",
+        "Customer_Name": "Nom du client"
+      },
+      "table_Modal": {
+        "id": "Identifiant",
+        "Project": "Projet ",
+        "Products": "Produits ",
+        "quantity": "quantité"
+      }
+    },
+    "Profile": {
+      "Full_Name": "Nom et prénom ",
+      "Email": "E-mail",
+      "New_Password": "Nouveau mot de passe",
+      "Confirm_Password": "Comfirmer le mot de passe",
+      "Save_Change": "Sauvegarder les modifications"
+    },
+    "ContactBox": {
+      "table": {
+        "id": "Identifiant",
+        "Name": "Nom",
+        "Email": "E-mail",
+        "Phone": "Téléphone",
+        "Message_Modal": "Message",
+        "actions": "actions"
+      }
+    },
+    "RolesBox": {
+      "Add_a_new": "Ajouter un nouveau",
+      "table": {
+        "id": "Identifiant",
+        "Name": "Nom",
+        "actions": "actions"
+      }
+    },
+    "RolesBoxAdd": {
+      "Role_Name": "Nom du rôle",
+      "Submit": "Soumettre"
+    },
+    "RolesBoxEdit": {
+      "Role_Name": "Nom du rôle",
+      "Submit": "Soumettre"
+    },
+    "AboutBox": {
+      "Title": "Titre",
+      "Description": "Description",
+      "Image": "image",
+      "Submit": "Soumettre"
+    },
+    "SettingsBox": {
+      "Facebook": "Facebook",
+      "Instagram": "Instagram",
+      "Whatsapp": "Whatsapp",
+      "Youtube": "TikTok",
+      "Phones": "Téléphones",
+      "Address": "Addresse",
+      "Submit": "Soumettre"
+    }
+  },
+  "sidBar": {
+    "DashBoard": "Tableau de bord",
+    "Products": "Produits ",
+    "Delivery": "Livraison",
+    "Features": "caractéristiques",
+    "Coupons": "Coupons",
+    "Terms&Conditions": "Termes et conditions",
+    "Brand": "Marque ",
+    "attributes": "attributs",
+    "units": "unités",
+    "Users": "Utilisateurs",
+    "categories": "catégories",
+    "sub_categories": "sous-catégories",
+    "sub_Sub_categories": "Sous-sous-catégories",
+    "Main_Warehouse": "Entreprôt principal",
+    "Services": "Services",
+    "project": "projet",
+    "project_Payment": "Paiement du projet",
+    "General_Expenses": "Frais généraux",
+    "project_Expenses": "Dépenses du projet",
+    "profile": "profil",
+    "contact": "contact",
+    "about": "A propos",
+    "roles": "rôles",
+    "Logout": "Se déconnecter",
+    "ads": "Publicités",
+    "settings": "Paramètres"
+  },
+  "code_error": {
+    "The_Data_Has_Been_Updated": "L’opération s’est déroulée avec succès ",
+    "The_Main_value_Must_be_entered": "La valeur principale doit être saisie !",
+    "The_amount_entered_is_greater_than_the_available_quantity": "Le montant saisi est supérieur à la quantité disponible!"
+  },
+  "remove_Modal": {
+    "delete": "Supprimer",
+    "Disagree": "Etre en désaccord",
+    "Are_you_sure_to_Delete_The_Item": "Etes-vous sûr de supprimer l’élément?",
+    "the_item_cannot_be_retrieved_after_its_letter": "L’article ne peut pas être récupéré après sa lettre"
+  },
+  "print": {
+    "Project_Name": "Nom du projet",
+    "Email": "E-mail",
+    "Phone": "Téléphone",
+    "project_name": "Nom du projet",
+    "customer_name": "Nom du client ",
+    "Date": "Date",
+    "go_back": "Retourner",
+    "print_window": "fenêtre d’impression",
+    "table": {
+      "Id": "Identifiant",
+      "Description": "Description",
+      "Quantity": "Quantité",
+      "created_at": "créé à",
+      "Price": "Prix",
+      "SubTotal": "Sous-Total",
+      "Total": "total"
+    }
+  },
+  "Language": {
+    "English": "AN",
+    "Arabic": "AR",
+    "French": "FR"
+  }
+}
