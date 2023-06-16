@@ -12,6 +12,7 @@ import ProfileReducer from "./Reducers/ProfileReducer";
 import UserReducer from "./Reducers/UserReducer";
 import FeaturesReducer from "./Reducers/FeaturesReducer";
 import CouponReducer from "./Reducers/CouponReducer";
+import TermsAndConditionsReducer from "./Reducers/TermsAndConditionsReducer";
 
 export let Store = configureStore({
     reducer: {
@@ -26,6 +27,7 @@ export let Store = configureStore({
         ProductReducer,
         MessageReducer,
         FeaturesReducer,
+        TermsAndConditionsReducer,
         CouponReducer,
     },
 });
