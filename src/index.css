@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bg-main: #ffffff;
+    --text-color-01: #000000;
+    --text-color-02: #8a92a6;
+    --text-color-03: #031d54;
+    --text-color-04: #fff;
+    --text-color-05: #0644c6;
+    --text-color-06: #0644c6;
+    --text-color-07: #0644c6;
+}
+* {
+    font-family: "Inter", sans-serif !important;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+.add-shadow {
+    border-radius: 6px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.add-shadow-main {
+    border-radius: 6px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.img-shadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.add-box .input,
+.add-box input {
+    width: 100%;
+
+    outline: none;
+    border: none;
+    border: 1px solid var(--text-color-01);
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.add-box textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    border: 1px solid var(--text-color-01);
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.add-box .select-box {
+    border: 1px solid var(--text-color-03);
+    padding: 12px;
+    border-radius: 4px;
+    height: 50px;
+}
+
+.add-box .select-box fieldset {
+    border: none !important;
+    outline: none !important;
+}
+
+/* .select-box ul {
+    max-height: 300px;
+} */
+
+/* ::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--text-color-05);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--text-color-02);
+    border-radius: 30px;
+
+} */
+/* ======hi-fathy===== */
